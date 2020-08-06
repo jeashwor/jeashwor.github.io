@@ -1,51 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Link Reset CSS -->
+    <link rel="stylesheet" href="./reset.css" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+
+    <!-- Link to local Style.css -->
+    <link rel="stylesheet" href="./style.css" />
+
     <title>Jacob Ashworth</title>
-    <style>
-        h2 {
-            margin-top: 15px;
-        }
-
-        img {
-            margin-right: 15px;
-            vertical-align: top;
-            float: left;
-
-        }
-
-        .topPage {
-            background-color: black;
-            color: cornsilk;
-            width: 100%;
-            height: 60px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        #bioBlurb {
-            width: 65%;
-            margin-left: 25px;
-            margin-right: 35px;
-        }
-
-        .flexItem {
-            margin-top: 15px;
-
-        }
-
-        .container {
-            display: flex;
-            justify-content: flex-start;
-        }
-
-        }
-    </style>
-
 </head>
+
 
 <body>
 
@@ -53,23 +24,27 @@
         <h1>Student Bio</h1>
     </header>
 
-    <div class="container">
-        <section class="flexItem" id="bioBlurb">
+    <div class="jumbotron">
+        <video width="100%" height="auto" controls>
+            <source src="./Profile_Video.mp4" type="video/mp4">
+        </video>
+    </div>
 
-            <h2>Jacob Ashworth</h2>
+    <div class="container-sm">
+        <section class="card" id="bioBlurb">
+            <img src="Profile Pic.png" class="card-img-top" alt="Jacob Ashworth">
+            <div class="card-body">
+                <h3>Bio</h3>
 
-            <div>
-                <img src="Profile Pic.png" alt="Jacob Ashworth">
-
-                <p>     I graduated from UNC-Chapel Hill in 2003 with a BS in Dramitic Art specializing in Technical Production and Design.  Since graduation I have used the skills learned at one of the best Technical Theater programs in the country
-                    scelerisque. Quisque sed tincidunt orci, luctus lobortis ante. Nam hendrerit eleifend dui, a feugiat
-                    est cursus vitae. Sed a justo sagittis, tristique lacus eget, convallis turpis. Suspendisse
-                    elementum diam ac augue dapibus tincidunt. Quisque a eleifend massa. Pellentesque ut varius leo, id
-                    pharetra tortor. Vivamus aliquet ullamcorper mauris eu gravida.</p>
-                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus
-                    dictum eros elementum ornare consequat. Aliquam finibus augue vitae purus eleifend malesuada vitae a
-                    metus. Nulla facilisi. Pellentesque mi mi, tempus sed nisl nec, ullamcorper vulputate neque. Morbi
-                    varius fermentum lacus, ut imperdiet metus condimentum vitae. Morbi vel urna ac leo congue pharetra.
+                <p>  I am a North Carolina native who grew up on the beautiful Outer Banks. I spent a great deal
+                    of time outdoors exploring. When I wasn't outdoors, I was hanging out with my dad and grandfather
+                    at his machine shop. While picking up as much as I could in terms of fabrication techniques
+                    I also learned the importance of precision and process.</p>
+                <p>I went to college at UNC Chapel Hill, and came away with a BS in Dramatic Art specializing in
+                    technical production and design. Since that time I have made a name for myself in the world of
+                    live events and tradeshows. I have managed to carve out a specialized niche of the industry where
+                    I am able to combine my love of design and the implementation of current technology to give a WOW
+                    factor to face-to-face marketing experiences.
                 </p>
 
             </div>
@@ -89,6 +64,16 @@
         </section>
     </div>
 
+    <!-- JavaScript Links -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
