@@ -18,23 +18,35 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#bio">Jacob Ashworth</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#bio">Bio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-    <header class="topPage">
-        <h1>Student Bio</h1>
-    </header>
-
-    <!-- <div class="jumbotron">
-        <video width="100%" height="auto" controls>
-            <source src="./Profile_Video.mp4" type="video/mp4">
-        </video>
-    </div> -->
 
     <div class="container-sm">
         <div class="row no-gutters">
             <div class="card col-sm-12">
+                <video class="card-img" width="100%" height="auto" controls autoplay>
+                    <source src="./Profile_Video.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="card col-sm-12" id="bio">
                 <div class="row no-gutters">
                     <div class="col-sm-4">
-                        <img src="Profile Pic.png" class="card-img" alt="Jacob Ashworth">
+                        <img src="./NorwayHike.jpg" class="card-img" alt="Jacob Ashworth">
                     </div>
                     <div class="col-sm-8">
                         <div class="card-body">
@@ -51,7 +63,7 @@
                                 technical production and design. Since that time I have made a name for myself in the
                                 world
                                 of
-                                live events and tradeshows. I have managed to carve out a specialized niche of the
+                                live events and trade shows. I have managed to carve out a specialized niche of the
                                 industry
                                 where
                                 I am able to combine my love of design and the implementation of current technology to
@@ -71,11 +83,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="card col-sm-12">
-                <video class="card-img" width="100%" height="auto" controls>
-                    <source src="./Profile_Video.mp4" type="video/mp4">
-                </video>
             </div>
         </div>
 

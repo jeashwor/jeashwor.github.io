@@ -1,3 +1,6 @@
+body {
+    background-color: rgb(190, 190, 190);
+}
 
 .socialLink {
     margin-right: 15px;
@@ -6,6 +9,10 @@
 .imageLink {
     height: 50px;
 
+}
+
+#bio {
+    margin-top: 15px !important;
 }
 
 /* .topPage {
