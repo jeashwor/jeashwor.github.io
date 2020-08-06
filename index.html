@@ -5,79 +5,84 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <!-- Link Reset CSS -->
-    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./assets/reset.css" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
 
     <!-- Link to local Style.css -->
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
 
     <title>Jacob Ashworth</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light area">
         <a class="navbar-brand" href="#bio">Jacob Ashworth</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#bio">Bio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Portfolio</a>
-            </li>
-          </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#bio">Bio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./assets/Jacob Ashworth Resume - Google Docs.pdf" target="_blank">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#footerWidth">Contact</a>
+                </li>
+            </ul>
         </div>
-      </nav>
+    </nav>
 
-
-    <div class="container-sm">
-        <div class="row no-gutters">
+    <div class="container-sm area">
+        <main class="row no-gutters area">
             <div class="card col-sm-12">
                 <video class="card-img" width="100%" height="auto" controls autoplay>
-                    <source src="./Profile_Video.mp4" type="video/mp4">
+                    <source src="./assets/Profile_Video.mp4" type="video/mp4" />
                 </video>
             </div>
-            <div class="card col-sm-12" id="bio">
+        </main>
+        <div class="row no-gutters area">
+            <h1 class="col-md-12 text-center" id="bio">Bio</h1>
+            <div class="card col-sm-12">
                 <div class="row no-gutters">
                     <div class="col-sm-4">
-                        <img src="./NorwayHike.jpg" class="card-img" alt="Jacob Ashworth">
+                        <img src="./assets/NorwayHike.jpg" class="card-img" id="bioImg" alt="Jacob Ashworth" />
                     </div>
                     <div class="col-sm-8">
                         <div class="card-body">
-                            <h3>Bio</h3>
-                            <p> I am a North Carolina native who grew up on the beautiful Outer Banks. I spent a great
-                                deal
-                                of time outdoors exploring. When I wasn't outdoors, I was hanging out with my dad and
-                                grandfather
-                                at his machine shop. While picking up as much as I could in terms of fabrication
-                                techniques
-                                I also learned the importance of precision and process.</p>
-                            <p>I went to college at UNC Chapel Hill, and came away with a BS in Dramatic Art
-                                specializing in
-                                technical production and design. Since that time I have made a name for myself in the
-                                world
-                                of
-                                live events and trade shows. I have managed to carve out a specialized niche of the
-                                industry
-                                where
-                                I am able to combine my love of design and the implementation of current technology to
-                                give
-                                a
-                                WOW
-                                factor to face-to-face marketing experiences.
+                            <p>
+                                I am a North Carolina native who grew up on the beautiful
+                                Outer Banks. I spent a great deal of time outdoors exploring.
+                                When I wasn't outdoors, I was hanging out with my dad and
+                                grandfather at his machine shop. While picking up as much as I
+                                could in terms of fabrication techniques I also learned the
+                                importance of precision and process.
+                            </p>
+                            <p>
+                                I went to college at UNC Chapel Hill, and came away with a BS
+                                in Dramatic Art specializing in technical production and
+                                design. Since that time I have made a name for myself in the
+                                world of live events and trade shows. I have managed to carve
+                                out a specialized niche of the industry where I am able to
+                                combine my love of design and the implementation of current
+                                technology to give a WOW factor to face-to-face marketing
+                                experiences.
                             </p>
                             <div class="d-flex flex-row-reverse">
                                 <a class="socialLink" href="https://github.com/jeashwor" target="_blank">
-                                    <img class="imageLink" src="./github_PNG20.png" alt="GitHub Link">
+                                    <img class="imageLink" src="./assets/github_PNG20.png" alt="GitHub Link" />
                                 </a>
                                 <a class="socialLink" href="https://www.linkedin.com/in/jeashwor" target="_blank">
-                                    <img class="imageLink" src="./linkedin-logo-vector.png" alt="Linkedin Link">
+                                    <img class="imageLink" src="./assets/linkedin-logo-vector.png" alt="Linkedin Link" />
                                 </a>
                             </div>
                         </div>
@@ -86,18 +91,55 @@
             </div>
         </div>
 
-        <section class="flexItem">
 
-            <h2>Contact Info</h2>
-
-            <ul>
-                <li><strong>Email:</strong> <a href="mailto:jeashwor@gmail.com">jeashwor@gmail.com</a></li>
-                <li><strong>Github:</strong> <a href="https://github.com/jeashwor">jeashwor</a></li>
-                <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-            </ul>
-
+        <section class="row no-gutters area" id="portfolio">
+            <h1 class="col-md-12 text-center">Portfolio</h1>
+            <div class="card col-md-3">
+                <img src="./assets/Project1_ScreenShot.png" class="card-img-top" alt="Project 1 Screen Shot">
+                <div class="card-body">
+                    <h4 class="card-title text-center">Impetus</h4>
+                    <p class="card-text text-center">Start your day with an inspirational quote, current local weather
+                        and events, and much more.</p>
+                    <a href="https://jeashwor.github.io/Project_One/" class="btn btn-primary">Go To Page</a>
+                    <a href="https://github.com/jeashwor/Project_One" class="btn btn-primary">GitHub Repo</a>
+                </div>
+            </div>
+            <div class="card col-md-3">
+                <img src="./assets/WDS_ScreenShot.png" class="card-img-top" alt="Work Day Scheduler">
+                <div class="card-body">
+                    <h4 class="card-title text-center">Work Day Scheduler</h4>
+                    <p class="card-text text-center">A simple calendar app for scheduling your work day.</p>
+                    <a href="https://jeashwor.github.io/Work_Day_Scheduler/" class="btn btn-primary">Go To Page</a>
+                    <a href="https://github.com/jeashwor/Work_Day_Scheduler" class="btn btn-primary">GitHub Repo</a>
+                </div>
+            </div>
+            <div class="card col-md-3">
+                <img src="./assets/WeatherscreenShot.png" class="card-img-top" alt="Weather Dashboard Screen Shot">
+                <div class="card-body">
+                    <h4 class="card-title text-center">Weather Dashboard</h4>
+                    <p class="card-text text-center">Basic weather dashboard to display current and five day forecast for requested city.</p>
+                    <a href="https://jeashwor.github.io/Weather_Dashboard/" class="btn btn-primary">Go To Page</a>
+                    <a href="https://github.com/jeashwor/Weather_Dashboard" class="btn btn-primary">GitHub Repo</a>
+                </div>
+            </div>
+            <div class="card col-md-3">
+                <img src="./assets/QuizScreenShot.png" class="card-img-top" alt="Project 1 Screen Shot">
+                <div class="card-body">
+                    <h4 class="card-title text-center">JavaScript Code Quiz</h4>
+                    <p class="card-text text-center">Created a 10 question quiz using JavaScript to test your coding knowledge.</p>
+                    <a href="https://jeashwor.github.io/JavaScript-Quiz/" class="btn btn-primary">Go To Page</a>
+                    <a href="https://github.com/jeashwor/JavaScript-Quiz" class="btn btn-primary">GitHub Repo</a>
+                </div>
+            </div>
         </section>
     </div>
+    <footer class="footer bg-light">
+        <div class="container" id="footerWidth">
+            <h3 class="text-center pt-3"> Contact Me:</h3>
+            <p class="text-center pb-3"><strong>Phone:</strong> (404) 556-9252        <strong>Email:</strong> jeashwor@gmail.com</p>
+        </div>
+    </footer>
+    
 
     <!-- JavaScript Links -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
