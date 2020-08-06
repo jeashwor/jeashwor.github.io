@@ -1,15 +1,14 @@
-h2 {
-    margin-top: 15px;
-}
 
-img {
+.socialLink {
     margin-right: 15px;
-    vertical-align: top;
-    float: left;
+}
+
+.imageLink {
+    height: 50px;
 
 }
 
-.topPage {
+/* .topPage {
     background-color: black;
     color: cornsilk;
     width: 100%;
@@ -33,4 +32,4 @@ img {
 .container {
     display: flex;
     justify-content: flex-start;
-}
+} */
