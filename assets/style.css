@@ -13,6 +13,10 @@ body {
       flex-shrink: 0;
   }
 
+  .headerColor {
+    background-color: rgba(209, 209, 209, 0.719) !important;
+  }
+
   .content {
     flex: 1 0 auto;
   }
