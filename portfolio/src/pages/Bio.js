@@ -10,12 +10,12 @@ function Bio() {
                     </video>
                 </div>
             </main>
-            {/* <div className="row no-gutters area">
+            <div className="row no-gutters area">
                 <h1 className="col-md-12 text-center headerColor" id="bio">Bio</h1>
                 <div className="card col-sm-12">
                     <div className="row no-gutters">
                         <div className="col-sm-4">
-                            <img src="./assets/NorwayHike.jpg" className="card-img" id="bioImg" alt="Jacob Ashworth" />
+                            <img src="/images/NorwayHike.jpg" className="card-img" id="bioImg" alt="Jacob Ashworth" />
                         </div>
                         <div className="col-sm-8">
                             <div className="card-body">
@@ -40,10 +40,10 @@ function Bio() {
                             </p>
                                 <div className="d-flex flex-row-reverse">
                                     <a className="socialLink" href="https://github.com/jeashwor" target="_blank">
-                                        <img className="imageLink" src="./assets/github_PNG20.png" alt="GitHub Link" />
+                                        <img className="imageLink" src="/images/github_PNG20.png" alt="GitHub Link" />
                                     </a>
                                     <a className="socialLink" href="https://www.linkedin.com/in/jeashwor" target="_blank">
-                                        <img className="imageLink" src="./assets/linkedin-logo-vector.png"
+                                        <img className="imageLink" src="/images/linkedin-logo-vector.png"
                                             alt="Linkedin Link" />
                                     </a>
                                 </div>
@@ -51,7 +51,7 @@ function Bio() {
                         </div>
                     </div>
                 </div>
-            </div> */}
+            </div>
         </div>
     )
 }
