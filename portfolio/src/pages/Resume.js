@@ -8,7 +8,7 @@ function Resume() {
     return (
         <div>
             <div className="text-center">
-                <a href="/JacobAshworthResume.pdf" download>Download Link</a>
+                <a href="/JacobAshworthResume.pdf" download><u>Download Link</u></a>
             </div>
             <div className="d-flex justify-content-center">
                 <Document file="/JacobAshworthResume.pdf">
