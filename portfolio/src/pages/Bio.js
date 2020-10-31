@@ -10,7 +10,7 @@ function Bio() {
                     </video>
                 </div>
             </main>
-            <div className="row no-gutters area">
+            <div className="row no-gutters area mb-5">
                 <h1 className="col-md-12 text-center headerColor" id="bio">Bio</h1>
                 <div className="card col-sm-12">
                     <div className="row no-gutters">

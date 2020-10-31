@@ -2,13 +2,11 @@ import React from 'react'
 
 function Footer() {
     return (
-        <footer className="footer headerColor">
+        
+        <footer className="footer fixed-bottom headerColor">
             <div className="container" id="footerWidth">
-            <h3 className="text-center pt-3"> Contact Me:</h3>
-            <p className="text-center pb-3"><strong>Phone:</strong> (404) 556-9252 <strong>Email:</strong>
-                jeashwor@gmail.com</p>
-        </div>
-            
+                <p className="text-center pt-3"><strong>JEA-Design 2020</strong></p>
+            </div>
         </footer>
     )
 }

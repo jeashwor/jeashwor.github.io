@@ -10,10 +10,6 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-footer {
-  flex-shrink: 0;
-}
-
 h1 {
   text-shadow: 2px 2px 5px;
 }
