@@ -2,7 +2,7 @@ import React from "react";
 
 function Bio() {
     return (
-        <div>
+        <div className="container-sm area content">
             <main className="row no-gutters area">
                 <div className="card col-sm-12">
                     <video className="card-img" width="100%" height="auto" controls autoPlay>
@@ -39,10 +39,10 @@ function Bio() {
                                     experiences.
                             </p>
                                 <div className="d-flex flex-row-reverse">
-                                    <a className="socialLink" href="https://github.com/jeashwor" target="_blank">
+                                    <a className="socialLink" href="https://github.com/jeashwor" rel="noreferrer" target="_blank">
                                         <img className="imageLink" src="/images/github_PNG20.png" alt="GitHub Link" />
                                     </a>
-                                    <a className="socialLink" href="https://www.linkedin.com/in/jeashwor" target="_blank">
+                                    <a className="socialLink" href="https://www.linkedin.com/in/jeashwor" rel="noreferrer" target="_blank">
                                         <img className="imageLink" src="/images/linkedin-logo-vector.png"
                                             alt="Linkedin Link" />
                                     </a>

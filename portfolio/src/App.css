@@ -1,38 +1,64 @@
-.App {
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: rgb(198, 228, 255);
+  display: flex;
+  flex-direction: column;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+  flex-shrink: 0;
+}
+
+h1 {
+  text-shadow: 2px 2px 5px;
+}
+
+.headerColor {
+  background-color: #a9ff2f !important;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.socialLink {
+  margin-right: 15px;
+}
+
+.imageLink {
+  height: 50px;
+}
+
+.area {
+  margin-bottom: 15px !important;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+.cardBtns {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#bioImg {
+  margin-top: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#bio,
+#portfolio {
+  background-color: white;
+  padding: 5px 0 5px 0;
+  margin-bottom: 0px !important;
+  border-top-left-radius: 5px !important;
+  border-top-right-radius: 5px !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#altPages {
+  margin-left: auto;
 }
